@@ -51,5 +51,5 @@ footer .footer-content .footer-links li:nth-child(1) {
 
 footer .footer-content .footer-links li:nth-child(2) {
     padding: 0 18px;
-    border-right: 1px solid #9E9E9E;
+    border: 1px solid #9E9E9E;
 }
