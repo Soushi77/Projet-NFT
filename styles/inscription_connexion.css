@@ -1,0 +1,145 @@
+body {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "poppins", sans-serif;
+    background-color: #FDFDFD;
+    overflow: hidden;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0;
+    height: 320px;
+    background: #2A3084;
+    top: 50%;
+    margin-top: -160px;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .container .container-forms {
+    position: relative;
+  }
+  .container .btn {
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    width: 169px;
+    color: #FDFDFD;
+    background-color: #2A3084;
+    opacity: 1;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .container .btn:hover {
+    opacity: 0.7;
+  }
+  .container .btn, .container input {
+    padding: 12px 25px;
+  }
+  .container input {
+    margin: 0 auto 15px;
+    display: block;
+    width: 220px;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .container-forms .container-info {
+    text-align: left;
+    font-size: 0;
+  }
+  .container .container-forms .container-info .info-item {
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    height: 320px;
+    display: inline-block;
+    vertical-align: top;
+    color: #FDFDFD;
+    opacity: 1;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .container .container-forms .container-info .info-item p {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .container .container-forms .container-info .info-item .btn {
+    background-color: transparent;
+    border: 1px solid #FDFDFD;
+    border-radius: 14px;
+  }
+  .container .container-form {
+    overflow: hidden;
+    position: absolute;
+    left: 30px;
+    top: -30px;
+    width: 305px;
+    height: 380px;
+    background-color: #F9F9FF;
+    box-shadow: 0px 0px 34px rgba(42, 48, 132, 0.13);
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .container .container-form .btn {
+    position: relative;
+    margin-top: 30px;
+  }
+  .container .form-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .container .form-item.sign-up {
+    position: absolute;
+    left: -100%;
+    opacity: 0;
+  }
+
+  .container.log-in .container-form {
+    left: 265px;
+  }
+  .container.log-in .container-form .form-item.sign-up {
+    left: 0;
+    opacity: 1;
+  }
+  .container.log-in .container-form .form-item.log-in {
+    left: -100%;
+    opacity: 0;
+  }

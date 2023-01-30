@@ -3,7 +3,7 @@
 	<head>
  		<meta charset="utf-8" />
  		<title>
-			Projet NFT
+			inscription / connexion | Projet NFT
 		</title>
 
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -16,9 +16,63 @@
 		<link rel="stylesheet" href="styles/reset.css" />
 		<link rel="stylesheet" href="styles/inscription_connexion.css" />
  	</head>
-
 	 	
 	<body>
-        <script type="text/javascript" src="inscription_connexion.js"></script>
+        <div class="container">
+            <div class="container-forms">
+              <div class="container-info">
+                <div class="info-item">
+                  <div class="table">
+                    <div class="table-cell">
+                      <p>
+                        Déjà un compte ?
+                      </p>
+                      <div class="btn">
+                        Se connecter
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="table">
+                    <div class="table-cell">
+                      <p>
+                        Pas de compte ? 
+                      </p>
+                      <div class="btn">
+                        S'inscrire
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-form">
+                <div class="form-item log-in">
+                  <div class="table">
+                    <div class="table-cell">
+                      <input name="Username" placeholder="E-mail" type="text" /><input name="Password" placeholder="Mot de passe" type="Password" />
+                      <div class="btn">
+                        Connexion
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-item sign-up">
+                  <div class="table">
+                    <div class="table-cell">
+                      <input name="email" placeholder="E-mail" type="text" />
+                      <input name="Password" placeholder="Mot de passe" type="password" />
+                      <input name="Username" placeholder="Confirmation du mot de passe" type="password" />
+                      <div class="btn">
+                        Inscription
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- partial -->
+          <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script type="text/javascript" src="inscription_connexion.js"></script>
 	 </body>
 </html>
