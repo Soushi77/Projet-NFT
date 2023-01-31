@@ -8,7 +8,7 @@ body {
     background-color: #FDFDFD;
     overflow: hidden;
   }
-  
+
   .table {
     display: table;
     width: 100%;
@@ -38,9 +38,11 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+
   .container .container-forms {
     position: relative;
   }
+
   .container .btn {
     cursor: pointer;
     text-align: center;
@@ -54,16 +56,22 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+
   .container .btn:hover {
     opacity: 0.7;
   }
-  .container .btn, .container input, h4 {
+
+  .container .btn, .container input {
     padding: 12px 25px;
   }
+
   .container h4{
-    margin: 0 auto 16px;
+    margin: 0px 112px 32px 112px;
     display: block;
+    font-size: larger;
+    font-weight: 600;
   }
+
   .container input {
     margin: 0 auto 16px;
     display: block;
@@ -76,10 +84,12 @@ body {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+
   .container .container-forms .container-info {
     text-align: left;
     font-size: 0;
   }
+
   .container .container-forms .container-info .info-item {
     text-align: center;
     font-size: 16px;
@@ -94,24 +104,28 @@ body {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+
   .container .container-forms .container-info .info-item p {
     font-size: 20px;
     margin: 20px;
   }
+
   .container .container-forms .container-info .info-item .btn {
     background-color: transparent;
     border: 1px solid #FDFDFD;
     border-radius: 14px;
   }
+
   .container .container-forms .container-info .info-item .btn:hover {
     background-color: #FDFDFD;
     color: #2A3084;
   }
+
   .container .container-form {
     overflow: hidden;
     position: absolute;
     left: -150px;
-    top: -60px;
+    top: -80px;
     width: 441px;
     height: 480px;
     background-color: #F9F9FF;
@@ -121,10 +135,12 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+
   .container .container-form .btn {
     position: relative;
     margin-top: 30px;
   }
+
   .container .form-item {
     position: absolute;
     left: 0;
@@ -137,6 +153,7 @@ body {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+
   .container .form-item.sign-up {
     position: absolute;
     left: -100%;
@@ -146,10 +163,12 @@ body {
   .container.log-in .container-form {
     left: 315px;
   }
+
   .container.log-in .container-form .form-item.sign-up {
     left: 0;
     opacity: 1;
   }
+
   .container.log-in .container-form .form-item.log-in {
     left: -100%;
     opacity: 0;
