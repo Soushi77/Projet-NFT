@@ -57,13 +57,20 @@ body {
   .container .btn:hover {
     opacity: 0.7;
   }
-  .container .btn, .container input {
+  .container .btn, .container input, h4 {
     padding: 12px 25px;
   }
+  .container h4{
+    margin: 0 auto 16px;
+    display: block;
+  }
   .container input {
-    margin: 0 auto 15px;
+    margin: 0 auto 16px;
     display: block;
     width: 220px;
+    background-color: #F9F9FF;
+    border: 1px solid #9E9E9E;
+    border-radius: 14px;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -96,13 +103,17 @@ body {
     border: 1px solid #FDFDFD;
     border-radius: 14px;
   }
+  .container .container-forms .container-info .info-item .btn:hover {
+    background-color: #FDFDFD;
+    color: #2A3084;
+  }
   .container .container-form {
     overflow: hidden;
     position: absolute;
-    left: 30px;
-    top: -30px;
-    width: 305px;
-    height: 380px;
+    left: 0px;
+    top: -60px;
+    width: 441px;
+    height: 480px;
     background-color: #F9F9FF;
     box-shadow: 0px 0px 34px rgba(42, 48, 132, 0.13);
     -moz-transition: all 0.5s;
