@@ -110,7 +110,7 @@ body {
   .container .container-form {
     overflow: hidden;
     position: absolute;
-    left: 0px;
+    left: -150px;
     top: -60px;
     width: 441px;
     height: 480px;
@@ -144,7 +144,7 @@ body {
   }
 
   .container.log-in .container-form {
-    left: 265px;
+    left: 315px;
   }
   .container.log-in .container-form .form-item.sign-up {
     left: 0;
