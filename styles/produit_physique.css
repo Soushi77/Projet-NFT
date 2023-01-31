@@ -87,6 +87,10 @@ section .main-info {
     font-size: 16px;
 }
 
+main section .rating a{
+    color: #252525;
+}
+
 /* FOOTER */
 
 footer {
