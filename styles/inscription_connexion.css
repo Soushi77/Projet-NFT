@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 30px auto 0;
-    height: 320px;
+    height: 380px;
     background: #2A3084;
     top: 50%;
     margin-top: -160px;
@@ -41,6 +41,12 @@ body {
 
   .container .container-forms {
     position: relative;
+  }
+
+  .container .cta-form p {
+    text-align: center;
+    color: #9E9E9E;
+    padding: 8px;
   }
 
   .container .btn {
@@ -66,7 +72,7 @@ body {
   }
 
   .container h4{
-    margin: 0px 112px 32px 112px;
+    margin: 0px 60px 60px 60px;
     display: block;
     font-size: larger;
     font-weight: 600;
@@ -75,7 +81,7 @@ body {
   .container input {
     margin: 0 auto 16px;
     display: block;
-    width: 220px;
+    width: 320px;
     background-color: #F9F9FF;
     border: 1px solid #9E9E9E;
     border-radius: 14px;
@@ -126,8 +132,8 @@ body {
     position: absolute;
     left: -150px;
     top: -80px;
-    width: 441px;
-    height: 480px;
+    width: 480px;
+    height: 550px;
     background-color: #F9F9FF;
     box-shadow: 0px 0px 34px rgba(42, 48, 132, 0.13);
     -moz-transition: all 0.5s;
@@ -136,9 +142,15 @@ body {
     transition: all 0.5s;
   }
 
-  .container .container-form .btn {
+  .container .container-form .cta-form {
     position: relative;
-    margin-top: 30px;
+    margin-top: 60px;
+  }
+
+  .container .container-form .cta-form .btn {
+    width: 320px;
+    border-radius: 14px;
+    padding: 16px;
   }
 
   .container .form-item {
