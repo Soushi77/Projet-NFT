@@ -96,6 +96,7 @@
   
   /*  NAV
   ========================================== */
+  
   nav {
     background-color: #090B56;
     position: fixed;
@@ -106,7 +107,7 @@
     max-width: 515px;
     width: 100%;
     padding: 100px 40px 60px 40px;
-    overflow-y: auto;
+    overflow-y: hidden;
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
@@ -208,10 +209,10 @@
     transition: all 0.3s ease;
   }
   nav ul.main li a span {
-    color: #b7ac7f;
+    color: #2A3084;;
   }
   nav ul.main li a:hover {
-    color: #b7ac7f;
+    color: #2A3084;
   }
   nav .about {
     margin-top: 40px;
@@ -248,15 +249,6 @@
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
   }
-  nav .social:after {
-    content: "";
-    width: 230px;
-    height: 2px;
-    background-color: #b7ac7f;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
   nav .social a {
     display: inline-block;
     width: 30px;
@@ -267,7 +259,7 @@
     margin-right: 0px;
   }
   nav .social a:hover svg path, nav .social a:hover svg circle {
-    fill: #b7ac7f;
+    fill: #2A3084;;
   }
   nav .social a svg {
     width: 100%;
@@ -312,7 +304,7 @@
     transition: all 0.3s ease;
   }
   nav ul.sub li a:hover {
-    color: #b7ac7f;
+    color: #2A3084;;
   }
   
   /*  OVERLAY
