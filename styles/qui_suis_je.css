@@ -40,9 +40,16 @@ body {
     align-items: center;
     padding: 44px 20px;
     gap: 18px;
+    color: #2A3084;
     
     width: 340px;
     height: 299px;
+  }
+
+  .values .value_box h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
   }
 
 section h1{
