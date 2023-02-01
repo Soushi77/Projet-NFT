@@ -23,6 +23,42 @@ main .artwork .tag {
     background-color: #2A3084;
 }
 
+main .container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+main .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+main .artwork .artwork-content {
+    padding: 3.2rem 4.8rem 4.8rem 3rem;
+}
+
+main .artwork .artwork-content .artwork-tag {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+main .artwork-content h4 {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+main .artwork-content .price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+}
+
 
 
 /* FOOTER  */
