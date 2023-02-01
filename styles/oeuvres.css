@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main .artwork {
+    box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+main .artwork img {
+    width: 100%;
+}
+
+main .artwork .tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #F9F9FF;
+    border-radius: 100px;
+    font-weight: 600;
+    background-color: #2A3084;
+}
+
+
+
+/* FOOTER  */
+footer {
+    background: #F9F9FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .footer-content {
+    width: 1141px;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .footer-content .icon-section{
+    display: flex;
+    gap: 36px;
+}
+
+footer .footer-content .horizontal-line{
+    border-bottom: 1px solid #9E9E9E;
+}
+
+footer .footer-content p {
+    color: #9E9E9E;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+footer .footer-content .footer-links ul{
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-content .footer-links li a {
+    color: #252525;
+    font-weight: 500;
+}
+
+footer .footer-content .footer-links li:nth-child(1) {
+    padding-right: 18px;
+    border-right: 1px solid #9E9E9E;
+}
+
+footer .footer-content .footer-links li:nth-child(2) {
+    padding: 0 18px;
+    border-right: 1px solid #9E9E9E;
+}
+
+footer .footer-content .footer-links li:nth-child(3) {
+    padding-left: 18px;
+}
