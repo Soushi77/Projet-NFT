@@ -1,16 +1,13 @@
 body {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    margin: auto 0;
     font-family: "poppins", sans-serif;
     background-color: #FDFDFD;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
-section {
+.presentation {
     position: relative;
     display: flex;
     justify-content: center;
@@ -20,6 +17,32 @@ section {
     gap: 100px;
     width: 1140px;
     height: 857px;
+  }
+
+  .values {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #2A3084;
+  }
+
+  .values .value_box{
+    background: #F9F9FF;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 20px;
+    gap: 18px;
+    
+    width: 340px;
+    height: 299px;
   }
 
 section h1{
