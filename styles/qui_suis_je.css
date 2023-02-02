@@ -14,7 +14,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 90px 15% 90px 15%;
-    gap: 100px;
     width: 100%;
     height: 100%;
   }
@@ -58,12 +57,44 @@ section h1{
     line-height: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 section h2{
   font-weight: 600;
    font-size: 32px;
+   margin-bottom: 30px;
 }
+
+.presentation .profil {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.presentation .profil p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+.presentation .introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.presentation .introduction p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+
+/* RESPONSIVE  */
 
 @media (max-width: 900px){
 
