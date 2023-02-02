@@ -21,11 +21,11 @@ body {
 
   .values {
     position: relative;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 90px 10% 90px 10%;
-    gap: 40px;
+    gap: 32px;
     width: 100%;
     height: 100%;
     background-color: #2A3084;
@@ -35,10 +35,11 @@ body {
     background: #F9F9FF;
     border-radius: 14px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 44px 20px;
-    gap: 18px;
+    padding: 40px 40px;
+    gap: 16px;
     color: #2A3084;
     
     width: 340px;
@@ -59,16 +60,36 @@ section h1{
     align-items: center;
 }
 
+section h2{
+  font-weight: 600;
+   font-size: 32px;
+}
+
 @media (max-width: 900px){
 
+  .presentation {
+    padding: 90px 10% 90px 10%;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .presentation img{
+    width: 40%;
+    height: 40%;
+  }
+
     .values .value_box{
-        padding: 44px 20px;
+        padding: 30px 20px;
         gap: 10px;
-        color: #2A3084;
         
-        width: 240px;
-        height: 199px;
+        width: 300px;
+        height: 240px;
     }
+
+    section h1{
+      font-size: 45px;
+  }
 
 
 }
