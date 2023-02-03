@@ -8,6 +8,13 @@ body {
     background-color: #FDFDFD;
   }
 
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
 .background_cookies_popin{
     background-color: #2a3084a3;
     width: 100%;
@@ -94,4 +101,9 @@ body {
     text-align: center;
     width: 400px;
     padding: 15px 30px;
+}
+
+.container {
+    width: 200px;
+    background: #090B56;
 }
