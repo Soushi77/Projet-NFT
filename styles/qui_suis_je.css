@@ -48,7 +48,7 @@ body {
   .values .value_box h4{
     font-weight: 600;
     font-size: 20px;
-    line-height: 30px;
+    line-height: normal;
   }
 
 section h1{
@@ -76,7 +76,7 @@ section h2{
 .presentation .profil p {
   font-weight: 500;
   font-size: 20px;
-  line-height: 115%;
+  line-height: normal;
 }
 
 .presentation .introduction {
@@ -88,7 +88,7 @@ section h2{
 .presentation .introduction p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: normal;
 }
 
 
