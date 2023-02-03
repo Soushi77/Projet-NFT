@@ -12,6 +12,17 @@ a {
     text-decoration: none;
 }
 
+.btn_logo{
+    position: absolute;
+    top:4%;
+    left:3%;
+  }
+
+  .btn_logo img{
+    width: 50%;
+    height: 50%;
+  }
+
 
 /* .background_cookies_popin{
     background-color: #2a3084a3;
