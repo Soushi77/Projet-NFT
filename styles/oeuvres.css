@@ -13,10 +13,21 @@ body {
     height: 50%;
   }
 
+
 main .artwork {
     box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 8%);
     border-radius: 11px;
     overflow: hidden;
+    transition: all 0.4s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+main .artwork:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 main .artwork img {
