@@ -18,7 +18,7 @@
 
 
 const modal = document.querySelector('.modal');
-const overlay = document.querySelector('.overlay');
+const overlay1 = document.querySelector('.overlay1');
 const btnCloseModal = document.querySelectorAll('.close-modal');
 
 // const closeModal = function () {
@@ -31,7 +31,7 @@ const btnCloseModal = document.querySelectorAll('.close-modal');
 document.querySelectorAll('.close-modal').forEach(item => {
   item.addEventListener('click', event => {
     modal.classList.add('hidden');
-    overlay.classList.add('hidden');
+    overlay1.classList.add('hidden');
   })
 })
 
