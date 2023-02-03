@@ -7,6 +7,17 @@ body{
     flex-direction: column;
 }
 
+.btn_logo{
+    position: absolute;
+    top:4%;
+    left:3%;
+  }
+
+  .btn_logo img{
+    width: 50%;
+    height: 50%;
+  }
+
 main{
     margin: 0px 20%;
     display: flex;
