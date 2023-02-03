@@ -34,3 +34,5 @@ document.querySelectorAll('.close-modal').forEach(item => {
     overlay.classList.add('hidden');
   })
 })
+
+
