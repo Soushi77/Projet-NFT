@@ -16,6 +16,7 @@ a {
     position: absolute;
     top:4%;
     left:3%;
+    z-index: 2;
   }
 
   .btn_logo img{
