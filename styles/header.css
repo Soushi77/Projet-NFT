@@ -320,7 +320,7 @@
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #b7ac7f;
+    background-color: rgba(9, 11, 86, 0.4);
     opacity: 0;
     visibility: hidden;
   }
