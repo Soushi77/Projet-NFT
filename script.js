@@ -37,7 +37,7 @@ document.querySelectorAll('.close-modal').forEach(item => {
 
 
 $(function(){
-  //$("#header").load("header.html"); 
+  $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
 });
 
