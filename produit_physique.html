@@ -14,13 +14,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/header.css" />
 		<link rel="stylesheet" href="styles/produit_physique.css" />
 
         <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
  	</head>
 
 	 	
 	<body>
+        <div id="header"></div>
         <main>
             <div class="container">
                 <img src="images/produit_physique1.jpg" alt="Man on his horse">
@@ -108,44 +116,16 @@
             </div>
         </main>
         
+        <div id="footer"></div>
+        
 
-        <footer>
-            <div class="footer-content">
-                <div class="icon-section">
-                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M29.1667 0H5.83333C2.52778 0 0 2.52778 0 5.83333V29.1667C0 32.4722 2.52778 35 5.83333 35H29.1667C32.4722 35 35 32.4722 35 29.1667V5.83333C35 2.52778 32.4722 0 29.1667 0ZM17.5 11.6667C20.8056 11.6667 23.3333 14.1944 23.3333 17.5C23.3333 20.8056 20.8056 23.3333 17.5 23.3333C14.1944 23.3333 11.6667 20.8056 11.6667 17.5C11.6667 14.1944 14.1944 11.6667 17.5 11.6667ZM24.8889 7.77778C24.8889 6.41667 26.0556 5.44445 27.2222 5.44445C28.3889 5.44445 29.5556 6.61111 29.5556 7.77778C29.5556 8.94444 28.5833 10.1111 27.2222 10.1111C25.8611 10.1111 24.8889 9.13889 24.8889 7.77778ZM29.1667 31.1111H5.83333C4.66667 31.1111 3.88889 30.3333 3.88889 29.1667V17.5H7.77778C7.77778 22.9444 12.0556 27.2222 17.5 27.2222C22.9444 27.2222 27.2222 22.9444 27.2222 17.5H31.1111V29.1667C31.1111 30.3333 30.3333 31.1111 29.1667 31.1111Z" fill="#090B56"/>
-                    </svg>
-                    <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M33.1618 0H2.02575C0.95825 0 0.09375 0.8645 0.09375 1.932V33.068C0.09375 34.1355 0.95825 35 2.02575 35H18.7873V21.4463H14.2268V16.1648H18.7873V12.2675C18.7873 7.7455 21.5488 5.285 25.5825 5.285C27.5145 5.285 29.1735 5.4285 29.6582 5.49325V10.2183H26.8617C24.6672 10.2183 24.2438 11.2613 24.2438 12.7908V16.163H29.4745L28.792 21.4445H24.242V35H33.1618C34.2293 35 35.0938 34.1355 35.0938 33.068V1.932C35.0938 0.8645 34.2293 0 33.1618 0Z" fill="#090B56"/>
-                    </svg>
-                    <svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M33.7875 0H1.5875C0.813125 0 0.1875 0.625625 0.1875 1.4V33.6C0.1875 34.3744 0.813125 35 1.5875 35H33.7875C34.5619 35 35.1875 34.3744 35.1875 33.6V1.4C35.1875 0.625625 34.5619 0 33.7875 0ZM27.1069 12.6744C27.12 12.88 27.12 13.0944 27.12 13.3044C27.12 19.7269 22.2288 27.125 13.2906 27.125C10.5344 27.125 7.97937 26.3244 5.82687 24.9463C6.22062 24.99 6.59688 25.0075 6.99938 25.0075C9.27437 25.0075 11.3656 24.2375 13.0325 22.9338C10.8975 22.89 9.10375 21.49 8.49125 19.565C9.23937 19.6744 9.91312 19.6744 10.6831 19.4775C9.5838 19.2542 8.5957 18.6571 7.8867 17.7878C7.17769 16.9185 6.7915 15.8305 6.79375 14.7088V14.6475C7.43687 15.0106 8.19375 15.2337 8.98563 15.2644C8.31994 14.8207 7.774 14.2197 7.39624 13.5145C7.01847 12.8093 6.82054 12.0219 6.82 11.2219C6.82 10.3162 7.05625 9.48938 7.48063 8.77187C8.70082 10.274 10.2234 11.5025 11.9495 12.3776C13.6756 13.2527 15.5665 13.7548 17.4994 13.8512C16.8125 10.5481 19.28 7.875 22.2463 7.875C23.6462 7.875 24.9062 8.46125 25.7944 9.40625C26.8925 9.20062 27.9425 8.78937 28.8787 8.23812C28.5156 9.3625 27.7544 10.3119 26.7437 10.9112C27.7237 10.8062 28.6687 10.535 29.5437 10.1544C28.8831 11.1256 28.0562 11.9875 27.1069 12.6744Z" fill="#090B56"/>
-                    </svg>
-                </div>
-                <div class="horizontal-line">
-                </div>
-                <p>
-                    Copyright © 2023 MathThePrinter. Tous droits réservés.
-                </p>
-                <div class="footer-links">
-                    <ul>
-                        <li>
-                            <a href="#">Mentions légales</a>
-                        </li>
-                        <li>
-                            <a href="#">Vente et Remboursement</a>
-                        </li>
-                        <li>
-                            <a href="#">Utilisation des cookies</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
-        </footer>
 
         <!-- Icons  -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- javascript  -->
+        <script type="text/javascript" src="script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="header.js"></script>
 	 </body>
 </html>
