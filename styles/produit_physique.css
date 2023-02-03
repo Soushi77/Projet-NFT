@@ -23,6 +23,17 @@ h3 {
     font-size: 20px;
 }
 
+.btn_logo{
+    position: absolute;
+    top:4%;
+    left:3%;
+  }
+
+  .btn_logo img{
+    width: 50%;
+    height: 50%;
+  }
+
 /* MAIN */
 
 .container {
